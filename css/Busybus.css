@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+}
+header {
+  background-color: black;
+  height: 100px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px 0;
+  color: white;
+  font-size: 20px;
+}
+h2 {
+  text-align: center;
+  background-color: gray;
+  font-size: 20px;
+  word-spacing: 30px;
+  color: white;
+}
+.numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  width: 55px;
+  height: 55px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+  float: left;
+}
+
+.clock {
+  float: right;
+  border-radius: 50%;
+  color: orange;
+  padding: 8px;
+  font-size: 20px;
+}
+.topnav {
+  overflow: auto;;
+  background-color: #e9e9e9;
+  text-align: center;
+  width: 100%;
+}
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.location {
+  border-bottom: 1px solid black;
+  height: 100px;
+  padding-top: 10px;
+}
+.content {
+  display: inline-block;
+}
+
+.location:hover {
+  background-color: gray;
+  square-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: #4679BD;
+}
