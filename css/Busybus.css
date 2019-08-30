@@ -1,0 +1,121 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body {
+  background-color: lightgrey;
+  width: 375px;
+  height: 667px;
+  margin: auto;
+}
+header {
+  background-color: black;
+  height: 118px;
+  width: 375px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px 0;
+  color: white;
+  font-size: 15px;
+}
+h2 {
+  text-align: content;
+  background-color: gray;
+  font-size: 18px;
+  word-spacing: 72px;
+  color: white;
+}
+h3 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.numberCircle {
+  border-radius: 60%;
+  behavior: url(PIE.htc);
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 20px Arial, sans-serif;
+  float: left;
+}
+
+.clock {
+  float: right;
+  border-radius: 50%;
+  color: orange;
+  padding: 8px;
+  font-size: 20px;
+}
+.topnav {
+  overflow: auto;;
+  background-color: #e9e9e9;
+  text-align: center;
+  margin-top: 15px;
+  width: 100%;
+}
+.container-1  .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.location {
+  border-bottom: 1px solid black;
+  height: 60px;
+  padding-top: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+.content {
+  display: inline-block;
+}
+.topnav input {
+  width: 95%;
+  height: 30px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+  text-align: middle;
+  float: left;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #ddd;
+}
+.bar {
+  width: 375px;
+}
+.container img {
+    width: 100%;
+    height: 15px;
+}
